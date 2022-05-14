@@ -1,0 +1,48 @@
+{
+    "short_name": "SAVE2HIDE",
+
+    "description": "SAVE2HIDE YOUR LIFE!!!",
+
+    "name": "SAVE2HIDE (Hide/Restore Tabs)",
+
+    "commands": {
+        "hide_tabs": {
+            "description": "SAVE2HIDE (Hide/Restore Tabs)",
+
+            "suggested_key": {
+                "mac": "Alt+Shift+H",
+
+                "default": "Alt+Shift+H"
+            }
+        }
+    },
+
+    "background": {
+        "service_worker": "opt.js"
+    },
+    
+    "permissions": [
+        "sessions",
+        "storage"
+    ],
+
+    "icons": {
+        "16": "src/settings/img/icon16.png",
+        "48": "src/settings/img/icon48.png",
+        "129": "src/settings/img/icon128.png"
+    },
+
+    "action": {
+        "default_title": "SAVE2HIDE (Hide/Restore Tabs)",
+        "default_icon": {
+            "16": "src/settings/img/icon16.png",
+            "48": "src/settings/img/icon48.png",
+            "128": "src/settings/img/icon128.png"
+        }
+    },
+    
+
+    "version": "1.0.0",
+
+    "manifest_version": 3
+}
